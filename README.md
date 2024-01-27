@@ -1,6 +1,6 @@
 # Cypress E2E Automation for Stocks Maze
 
-This repository contains end-to-end automated tests for the Stocks Maze marketPlace vendor web application. The tests are written using [Cypress](https://www.cypress.io/), an advanced front-end testing tool built for modern web applications.
+This repository contains end-to-end automated tests for the Stocks Maze marketPlace vendor web application. The tests are written using TypeScript and [Cypress](https://www.cypress.io/), an advanced front-end testing tool built for modern web applications.
 
 ## Getting Started
 
@@ -29,7 +29,12 @@ A step-by-step series of examples that tell you how to get a development environ
 
     ```bash
     npm install
- 4. **Set Up Environment Variables**
+ 4. **Install TypeScript**
+
+    ```bash
+      npm install --save-dev typescript
+
+ 5. **Set Up Environment Variables**
 
    Create a cypress.env.json file in the project root with the necessary environment variables
 
