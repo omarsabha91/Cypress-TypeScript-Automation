@@ -1,9 +1,9 @@
 
-import MainNavBar from '../components/MainNavBar';
+import MainNavBar from '../Components/MainNavBar';
 class ProductsPage {
-
+    navBar: MainNavBar;
     constructor() {
-        this.navBar = new MainNavBar();
+       this.navBar = new MainNavBar();
     }
 
     visit() {

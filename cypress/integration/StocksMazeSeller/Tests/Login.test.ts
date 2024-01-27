@@ -1,5 +1,5 @@
 
-import SignInPage from '../pages/SignInPage';
+import SignInPage from '../Pages/SignInPage';
 
 describe('StocksMazeSeller Sign In Test', () => {
     const signInPage = new SignInPage();

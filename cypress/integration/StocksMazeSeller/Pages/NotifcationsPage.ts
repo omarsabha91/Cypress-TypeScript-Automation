@@ -1,12 +1,12 @@
-import MainNavBar from '../components/MainNavBar';
+import MainNavBar from '../Components/MainNavBar';
 class NotificationsPage {
-
+    navBar: MainNavBar;
     constructor() {
         this.navBar = new MainNavBar();
     }
 
     visit() {
-        cy.visit('/dashboard/');
+        cy.visit('/notifications/');
     }
 
 }

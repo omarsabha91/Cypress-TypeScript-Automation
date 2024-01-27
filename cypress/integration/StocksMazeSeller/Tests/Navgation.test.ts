@@ -1,4 +1,3 @@
-
 import SignInPage from '../Pages/SignInPage';
 import DashBoardPage from '../Pages/DashBoardPage';
 import OrdersPage from '../Pages/OrdersPage';
@@ -15,7 +14,7 @@ describe('StocksMazeSeller Navigations Test', () => {
     const notificationsPage = new NotificationsPage();
     const productsPage = new ProductsPage();
 
-    function navigateAndVerify(page, navItem, expectedUrl, expectedTitle) {
+    function navigateAndVerify(page:any, navItem:string, expectedUrl:string, expectedTitle:string) {
         page.navBar.clickNavItem(navItem);
         cy.url().should('include', expectedUrl);
         cy.title().should('include', expectedTitle);

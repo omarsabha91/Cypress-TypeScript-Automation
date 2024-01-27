@@ -1,7 +1,7 @@
 
-import MainNavBar from '../components/MainNavBar';
+import MainNavBar from '../Components/MainNavBar';
 class OrdersPage {
-
+    navBar: MainNavBar;
     constructor() {
         this.navBar = new MainNavBar();
     }
